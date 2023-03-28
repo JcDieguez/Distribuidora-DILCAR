@@ -1,0 +1,63 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.logo {
+    height: 50px;
+}
+
+.title {
+    font-size: 2rem;
+    margin: 0 2rem;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-right: 2rem;
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #bd2828;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #9e3f3f;
+}

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "components/*": ["./components/*"],
+        "react-router-dom": ["./../node_modules/react-router-dom"],
+        "react-router-dom/*": ["./../node_modules/react-router-dom/*"]
+      }
+    }
+  }
+  

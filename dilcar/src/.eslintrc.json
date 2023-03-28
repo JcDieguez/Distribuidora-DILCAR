@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "Link": "writable"
+  },
+  "rules": {
+    "react/jsx-no-undef": ["error", { "allowGlobals": true }]
+  }
+}
