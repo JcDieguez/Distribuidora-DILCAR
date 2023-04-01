@@ -1,38 +1,41 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    height: 80px;
-    padding: 0 2rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo {
-    height: 50px;
-  }
-  
-  .navbar ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  .navbar ul li {
-    margin-right: 2rem;
-  }
-  
-  .navbar ul li:last-child {
-    margin-right: 0;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #333333;
-    transition: all 0.3s ease;
-  }
-  
-  .navbar a:hover {
-    color: #bd2828;
-  }
-  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url('/dilcar/public/dilcar-logo.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  padding: 0 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin-left: 2rem;
+}
+
+.navbar li:first-child {
+  margin-left: 0;
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #bd2828;
+}

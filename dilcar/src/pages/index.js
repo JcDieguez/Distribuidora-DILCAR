@@ -2,31 +2,21 @@ import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../styles/index.module.css';
 import Footer from '../components/Footer';
+import NavBar from '../components/NavBar';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Distribuidora DILCAR</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/dilcar-logo.ico" />
       </Head>
-      <header className={styles.header}>
-        <img src="/dilcar-logo.png" alt="DILCAR logo" className={styles.logo} />
-        <h1 className={styles.title}>Bienvenido a DILCAR</h1>
-        <nav className={styles.nav}>
-          <ul>
-            <li><Link href="/">Inicio</Link></li>
-            <li><Link href="/catalogo">Catálogo</Link></li>
-            <li><Link href="/contacto">Contacto</Link></li>
-          </ul>
-        </nav>
-      </header>
-
+        <NavBar />
       <main className={styles.main}>
         <h1 className={styles.heading}>Bienvenidos a la Distribuidora DILCAR</h1>
-        <p className={styles.description}>Ofrecemos productos de calidad a precios competitivos.</p>
+        <p className={styles.description}>En nuestra tienda, la iluminacion es solo el comienzo</p>
 
-        <Link href="/productos" className={styles.cta}>
+        <Link href="/catalogo" className={styles.cta}>
           Ver catálogo
         </Link>
       </main>

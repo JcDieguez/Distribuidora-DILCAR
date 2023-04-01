@@ -21,7 +21,13 @@ export default function NavBar() {
           </Link>
         </li>
       </ul>
+      <div className={styles.hamburger}>
+        <div className={styles.line}></div>
+        <div className={styles.line}></div>
+        <div className={styles.line}></div>
+      </div>
     </nav>
   );
 }
+
 
